@@ -120,6 +120,11 @@ var langs = module.exports = {
     names: [ '.htaccess', 'apache.conf', 'apache2.conf' ],
     comment: '#'
   },
+  handlebars: {
+    extensions: [ 'hbs', 'handlebars' ],
+    //comment: only supports multi line comments
+    multiLine: [ /\{\{!(--)?/, /(--)?\}\}/ ], jsDoc: true
+  },
   jade: {
     extensions: [ 'jade' ],
     comment: '//-?', multiLine: [ /\/\*\*?/, /\*\// ], jsDoc: true
