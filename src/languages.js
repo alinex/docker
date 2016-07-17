@@ -123,7 +123,7 @@ var langs = module.exports = {
   handlebars: {
     extensions: [ 'hbs', 'handlebars' ],
     //comment: only supports multi line comments
-    multiLine: [ /\{\{!(--)?/, /(--)?\}\}/ ], jsDoc: true
+    multiLine: [ /\{\{!(--)?/, /(--)?\}\}/ ]
   },
   jade: {
     extensions: [ 'jade' ],
